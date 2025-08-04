@@ -104,6 +104,7 @@ export const ResultsSection = () => {
               size="xl" 
               variant="cta"
               className="min-w-[350px] text-white shadow-elegant hover:shadow-glow"
+              onClick={() => window.open('https://pay.hotmart.com/V101179580R?checkoutMode=10&sck=pag_vendas', '_blank')}
             >
               YO TAMBIÉN QUIERO RESULTADOS ASÍ
             </Button>

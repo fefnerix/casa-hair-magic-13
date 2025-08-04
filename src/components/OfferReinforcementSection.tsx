@@ -40,7 +40,7 @@ export const OfferReinforcementSection = () => {
   ];
 
   return (
-    <section className="py-20 bg-gradient-soft">
+    <section className="py-20 bg-gradient-soft" data-section="offer-reinforcement">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <Card className="relative p-8 md:p-12 bg-card border-2 border-primary/20 shadow-elegant overflow-hidden">

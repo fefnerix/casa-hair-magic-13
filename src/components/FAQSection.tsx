@@ -111,15 +111,10 @@ export const FAQSection = () => {
               size="xl" 
               variant="cta"
               className="min-w-[300px] text-white shadow-elegant hover:shadow-glow"
+              onClick={() => window.open('https://pay.hotmart.com/V101179580R?checkoutMode=10&sck=pag_vendas', '_blank')}
             >
               LIBERA TU ACCESO CON GARANTÍA
             </Button>
-            
-            <p className="text-sm text-muted-foreground flex items-center justify-center gap-2">
-              <MessageCircle className="w-4 h-4" style={{color: '#d4145a'}} />
-              ¿Necesitas ayuda? Escríbenos por WhatsApp: 
-              <span className="text-primary font-semibold"> +1 (555) 123-4567</span>
-            </p>
           </div>
         </div>
       </div>

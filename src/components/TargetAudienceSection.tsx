@@ -71,6 +71,7 @@ export const TargetAudienceSection = () => {
               size="xl" 
               variant="success"
               className="min-w-[300px] shadow-elegant hover:shadow-glow"
+              onClick={() => window.open('https://pay.hotmart.com/V101179580R?checkoutMode=10&sck=pag_vendas', '_blank')}
             >
               ¡EMPIEZA HOY MISMO!
             </Button>

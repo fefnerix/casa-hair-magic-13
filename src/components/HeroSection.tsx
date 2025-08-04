@@ -48,8 +48,16 @@ export const HeroSection = () => {
 
             {/* CTA Section */}
             <div className="space-y-6">
-              <Button size="xl" variant="cta" className="w-full lg:w-auto min-w-[320px] text-white shadow-cta hover:shadow-glow">
-                OBTENER GUÍA COMPLETA POR $9,90
+              <Button 
+                size="xl" 
+                variant="cta" 
+                className="w-full lg:w-auto min-w-[320px] text-white shadow-cta hover:shadow-glow"
+                onClick={() => {
+                  const offerSection = document.querySelector('[data-section="offer-reinforcement"]');
+                  offerSection?.scrollIntoView({ behavior: 'smooth' });
+                }}
+              >
+                VER OFERTA ESPECIAL COMPLETA
               </Button>
               
               {/* Urgency Bar */}
